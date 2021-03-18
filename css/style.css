@@ -49,6 +49,7 @@ body {
   color: var(--primary-text-color);
   font-family: var(--main-font);
   letter-spacing: 0.03em;
+  overflow-x: hidden;
 }
 /*container*/
 .container {
@@ -102,11 +103,12 @@ body {
   align-items: center;
 }
 .site-nav-link {
+  color: var(--title-text-color);
   transition: color 250ms var(--timing-function);
   padding-bottom: 32px;
 }
-.site-nav .link:hover,
-.site-nav .link:focus {
+.site-nav .site-nav-link:hover,
+.site-nav .site-nav-link:focus {
   color: var(--accent-color);
 }
 .site-nav .link.current {
@@ -514,6 +516,7 @@ body {
   letter-spacing: 0.06em;
 }
 .work-name {
+  color: var(--primary-text-color);
   font-size: 16px;
   line-height: 1.87;
 }
