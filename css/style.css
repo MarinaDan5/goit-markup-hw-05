@@ -49,7 +49,6 @@ body {
   color: var(--primary-text-color);
   font-family: var(--main-font);
   letter-spacing: 0.03em;
-  overflow-x: hidden;
 }
 /*container*/
 .container {
@@ -498,15 +497,18 @@ body {
 
 /*Portfolio-project*/
 .filtre-of-work {
-  padding-bottom: 50px;
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
-  padding-top: 94px;
+  padding: 94px 0 50px 0;
+  margin-right: auto;
+  margin-left: auto;
 }
 .portfolio-project {
+  display: flex;
+  justify-content: center;
   align-items: center;
-  padding-left: 280px;
-  padding-right: 279px;
 }
 .work-project {
   color: var(--title-text-color);
